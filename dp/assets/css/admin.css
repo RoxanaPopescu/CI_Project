@@ -1,0 +1,99 @@
+/*
+* This stylesheet handles the admin panel
+*/
+
+/* admin overall content */
+.admin_content {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* handle the orders table */
+.admin_orders table td {
+    text-align: center;
+    width: 200px;
+}
+
+/* style the products tables */
+.table_order_products table td{
+    text-align: center;
+    width: 120px;
+}
+
+/* style the alternative rows of the table */
+.row_grey {
+    background-color: #ebebeb;
+    height: 30px;
+}
+
+.row_white {
+    background-color: #ffefef;
+    height: 30px;
+}
+
+/* create a hover effect on the rows of the table */
+.row_grey:hover {
+    background-color: #f9f9f9;
+    cursor: default;
+}
+
+.row_white:hover {
+    background-color: #f9f9f9;
+    cursor: default;
+}
+
+/* modify - edit/delete product on the website */
+.admin_modify_product {
+    margin-bottom: 36px;
+    width: 130px;
+    height: 83px;
+}
+
+.modify_header {
+    padding-left: 10px;
+    padding-bottom: 9px;
+    background-color: #ffefef;
+}
+
+.clickable {
+    color: red;
+    cursor: pointer;
+}
+
+.modify_options {
+    display: none;
+}
+
+.modify_options a{
+   text-decoration: none;
+   outline: none;
+}
+
+.modify_edit {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+.modify_edit:hover {
+    background-color: #f9f9f9;
+}
+
+.modify_delete {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+.modify_delete:hover {
+    background-color: #f9f9f9;
+}
+
+/* make the highlight color from the warning have a certain size */
+.product_detail {
+    width: 200px;
+}

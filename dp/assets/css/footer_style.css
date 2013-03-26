@@ -1,0 +1,29 @@
+/*
+* This stylesheet handles the footer section
+*/
+
+.footer_color{
+    background-color: #9b132d;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.footer_links div {
+    width: 130px;
+    text-align: center;
+}
+
+.footer_links div a {
+    color: white;
+}
+
+.footer_copyright {
+    width: 500px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 14px;
+    color: #F2E7E9;
+    font-size: 13px;
+}

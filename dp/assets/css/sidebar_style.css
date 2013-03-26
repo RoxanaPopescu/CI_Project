@@ -1,0 +1,139 @@
+/*
+This stylesheet is for styling the sidebar
+*/
+
+/* the sidebar background */
+.row .sidebar{
+    margin-right: 1.8%;
+}
+
+/* START - STYLING OTHER SIDEBAR DETAILS */
+
+.title_sidebar{
+    width:100%;
+    height:30px;
+    color: white;
+    /*background-color: #9b132d;*/
+    /*padding-left: 25px;*/
+    background-image: url("../img/title_sidebar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top:5px;
+}
+
+.content_sidebar{
+    width:100%;
+    background-color: #F2E7E9;
+}
+
+.brands_sidebar{
+    padding-left:25px;
+    /*margin-top:15px;*/
+    /*border-left: 1px solid #9b132d;
+    border-right: 1px solid #9b132d;*/
+}
+
+.brands_sidebar li{
+    list-style-type: none;
+}
+
+.brands_sidebar li a{
+    color: black;
+}
+
+.car_sidebar{
+    padding-left:10px;
+   /* border-left: 1px solid #9b132d;
+    border-right: 1px solid #9b132d;*/
+}
+
+.car_sidebar a{
+    color: black;
+}
+
+.categories_sidebar{
+    padding-left:25px;
+    /*border-left: 1px solid #9b132d;
+    border-right: 1px solid #9b132d;
+    border-bottom: 1px solid #9b132d;*/
+}
+
+.categories_sidebar li{
+    list-style-type: none;
+}
+
+.categories_sidebar li a{
+    color: black;
+}
+
+/* END - STYLING OTHER SIDEBAR DETAILS */
+
+/* START - STYLING THE 'LAST VIEWED CAR' TABLE */
+
+/*/* the table's caption'
+caption {
+    font-weight: bold;
+}*/
+
+/* the text of the left cells */
+.left_cell_car {
+    font-weight: bold;
+    vertical-align:text-top;
+}
+
+/* the right cells */
+.right_cell_car {
+    width: 50px;
+}
+
+/* END - STYLING THE 'LAST VIEWED CAR' TABLE */
+
+
+/* START - STYLING THE SUMMARY CART */
+
+#menu_wrap{
+    width: 24.22%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#menu {
+    width: 24.22%;
+    margin-top: 0px;
+}
+
+#container {
+    position: relative;
+}
+
+/* cart summary - upper part */
+.cart_heading {
+    background-color: #9b132d;
+    text-align: center;
+    color: white;
+    height: 28px;
+    padding-bottom: 5%;
+}
+
+.cart_heading a {
+    color: white;
+}
+
+/* cart summary - lower part */
+.cart_products {
+    background-color: #ebebeb;
+    padding-left: 5px;
+}
+
+.cart_products li {
+    list-style-type: none;
+}
+
+.total_sum_summary {
+    color: #9b132d;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* END- STYLING THE SUMMARY CART */

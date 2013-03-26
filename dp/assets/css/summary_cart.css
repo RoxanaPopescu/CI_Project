@@ -1,0 +1,18 @@
+/*
+This stylesheet is for styling the cart summary
+*/
+
+.cart_heading {
+    background-color: #9b132d;
+    text-align: center;
+    color: white;
+    height: 28px;
+}
+
+.cart_heading a {
+    color: white;
+}
+
+.cart_products {
+    background-color: #ebebeb;
+}

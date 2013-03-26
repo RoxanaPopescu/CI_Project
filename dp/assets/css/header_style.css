@@ -1,0 +1,103 @@
+/*
+This stylesheet is for styling the top part of the website
+*/
+
+/* START - STYLING THE HEADER */
+
+/* the header's background, width and height */
+.header{
+    background-image: url("../img/header.png");
+    background-repeat: repeat-x;
+    height: 150px;
+    margin-bottom: 135px;
+}
+
+/* the logo */
+.logo{
+    height: 150px;
+    /*background-color: #9b132d;*/
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:120px;
+}
+
+/* the content of the logo */
+.logo p{
+    color: white;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+/* the right side of the header */
+.header_right{
+    width:300px;
+    height:150px;
+    padding-right: 20px;
+    margin-top: -250px;
+    float:right;
+    /*border: 1px solid black;*/
+}
+
+/* the search bar */
+.search_bar{
+   /* float:right;*/
+   /*margin-top:-171px;*/
+   margin-right:4.8%;
+   /*padding-right: 20px;*/
+   width:206px;
+   height:22px;
+  /* border:1px solid black;*/
+   float:left;
+   margin-top:55px;
+}
+
+/* the search bar field */
+.search_bar input{
+   width:180px;
+   float:left;
+}
+
+/* the search icon */
+.search_bar #s_icon{
+    margin-top:1px;
+    float:left;
+    width: 20px;
+    height: 20px;
+}
+
+/* the user sign in and register section */
+.welcome_message{
+   /* border: 1px solid black;*/
+    width:250px;
+    height: 22px;
+    float:left;
+    /*margin-top: -50px;*/
+    margin-right:4.8%;
+    color: white;
+}
+
+/* the links in the header */
+.header a {
+    color:white;
+}
+
+/* END - STYLING THE HEADER */
+
+/* START - STYLING THE MENU */
+
+.row .menu_item{
+    width: 11.45%;
+    margin-right: 4.8%;
+    text-align: center;
+    background-color: #9b132d;
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+.row .menu_item a{
+    text-decoration: none;
+    color: white;
+}
+
+/* END - STYLING THE MENU */
